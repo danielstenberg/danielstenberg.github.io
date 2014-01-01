@@ -179,12 +179,8 @@ a:hover {
 .floatinglogo {
 	position: absolute;
 	margin: -48px 0 0 -200px; /* -16.8% */
-	text-align: center;
 	top: 48%;
 	left: 50%;
-	transition: 1s background;
-    -webkit-transition: 1s background;
-    -moz-transition: 1s background;
 }
 	
 /* ----------------------- Navigation ----------------------- */
