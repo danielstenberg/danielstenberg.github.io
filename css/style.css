@@ -181,7 +181,45 @@ a:hover {
 	margin: -48px 0 0 -200px; /* -16.8% */
 	top: 48%;
 	left: 50%;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+
 }
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 	
 /* ----------------------- Navigation ----------------------- */
 
@@ -189,7 +227,7 @@ a:hover {
 .main-navigation {
 		position: absolute;
 		top: 6%;
-		left: 10%;
+		left: 8%;
 		margin: 0 auto;
 		width: auto;
 		}

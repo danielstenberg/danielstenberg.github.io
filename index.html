@@ -30,6 +30,7 @@
 	<img src="img/logo.png" width="400" height="auto">
 </div>
 
+
 <img class="single" src="img/1.jpg">
 
 <div class="text-full">
@@ -82,8 +83,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida porta dui
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium nunc est, et facilisis turpis mattis vitae. </p>
 </div>
 
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+$(".floatinglogo").delay(1000).animate({"opacity": "1"}, 700);
+
 $(document).ready(function(){
     $(window).scroll(function(){
         if ($(window).scrollTop() > 50){
@@ -93,8 +96,9 @@ $(document).ready(function(){
 						$('.floatinglogo').stop().animate({'opacity':'1'},200);
         }
     });
+    
 });
-        </script>
+</script>
 
 </body>
 </html>
