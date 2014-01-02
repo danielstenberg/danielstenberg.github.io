@@ -63,6 +63,7 @@ h1 {
 	margin: 0 0 0.4em 0;
 }
 
+
 h2 {
 	text-decoration: none;
 	font-weight: bold;
@@ -106,6 +107,21 @@ a:hover {
 	color: #000;
 	text-decoration: none;
 }
+
+
+/* ----------------------- Arrows ----------------------- */
+
+
+.arrow_left {
+	position: relative;
+	top: 21em;
+	left: 63.5%;
+	background: url('../img/arrow_left.png') no-repeat;
+	width: 18px;
+	height: 35px;
+	z-index: 1000;
+}
+
 
 
 /* ----------------------- Content ----------------------- */
@@ -165,21 +181,19 @@ a:hover {
 }
 
 .text-half2 {
-	margin: -400px 0 0 0;
+	margin: 0px 0 0 0;
 	height: 300px;
 	width: 50%;
 	padding: 5%;
 	float: left;
 	background-color: transparent;
 }
-
-
 /* ----------------------- Logo ----------------------- */
 
 .floatinglogo {
 	position: absolute;
 	margin: -48px 0 0 -200px; /* -16.8% */
-	top: 48%;
+	top: 42%;
 	left: 50%;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
@@ -255,7 +269,7 @@ a:hover {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #555658;  
+		color: #323333;  /* #555658 */
 		text-transform: uppercase;
 		white-space: nowrap;
 		-o-transition:.25s;
@@ -441,6 +455,11 @@ display: none;
 	left: 55%;
 	width: 40%;
 }
+
+.arrow_left {
+	display: none;
+	}
+
 
 } /* end media query */
 
