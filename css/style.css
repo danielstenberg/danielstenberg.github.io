@@ -413,7 +413,7 @@ a:hover {
 
 } /* end media query */
 
-@media screen and (min-width: 481px) and (max-width: 900px) { /* 768 */
+@media screen and (min-width: 481px) and (max-width: 960px) { /* 768 */
 
 .onethird {
 	width: 50%;
