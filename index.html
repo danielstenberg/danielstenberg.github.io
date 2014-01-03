@@ -14,12 +14,18 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <meta name="viewport" content="width=device-width" />
+  <link type="text/css" rel="stylesheet" href="css/jquery.dropdown.css" />
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+  
 </head>
 <body>
+
 
 <nav id="site-navigation" class="main-navigation">
 <ul class="nav-menu">
 <li><a href="#" class="on">Portfolio</a></li>
+<li class="dropdown-link" data-dropdown="#dropdown-3"><span>Portfolio</span></li>
 <li><a href="#">Blog</a></li>
 <li><a href="#">About</a></li>
 </ul>
@@ -79,7 +85,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida porta dui
 -->
 
 
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
 $(".floatinglogo").delay(1000).animate({"opacity": "1"}, 700);
 
@@ -95,6 +100,20 @@ $(document).ready(function(){
     
 });
 </script>
+
+<div id="dropdown-3" class="dropdown dropdown-tip dropdown-scroll">
+		<ul class="dropdown-menu">
+			<li><a href="#"><div class="project-title-wrap">Personal favourites</div><img src="img/main4.jpg" width="280" height="184"></a></li>
+			<li><a href="#"><div class="project-title-wrap">Form us with love</div><img src="http://www.fridasalomonsson.com/blog/wp-content/uploads/2013/02/MG_5734C.jpg" width="280" height="auto"></a></li>
+			<li><a href="#"><div class="project-title-wrap">Project 2</div><img src="img/main1.jpg" width="280" height="auto"></a></li>
+			<li><a href="#"><div class="project-title-wrap">Project 3</div><img src="img/main3.jpg" width="280" height="auto"></a></li>
+			<li><a href="#"><div class="project-title-wrap">Project 4</div><img src="img/main2.jpg" width="280" height="auto"></a></li>
+			<li><a href="#"><div class="project-title-wrap">Project 5</div><img src="img/main4.jpg" width="280" height="auto"></a></li>
+			<li><a href="#"><div class="project-title-wrap">Project 6</div><img src="img/main1.jpg" width="280" height="auto"></a></li>
+			<!--<li class="dropdown-divider"></li>-->
+
+		</ul>
+	</div>	
 
 </body>
 </html>
