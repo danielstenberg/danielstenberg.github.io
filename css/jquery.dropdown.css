@@ -84,7 +84,7 @@
 .dropdown.dropdown-tip:after {
   position: absolute;
   top: -5px;
-  left: 10px;
+  left: 10px; /* 130px center */
   content: '';
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
@@ -150,7 +150,6 @@
 .dropdown .delete A { background-image: url(icons/cross-script.png); }
 
 .project-title-wrap {
-	z-index: 10000;
 	position: relative;
 	top: 30px;
 	left: 20px;
@@ -167,7 +166,11 @@
 	cursor: pointer;
 }
 
+.project-title-wrap:hover { color: #323333; }
+
 .dropdown-menu img {
 	margin: -20px 0 0 0;
 	
 }
+
+
