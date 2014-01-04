@@ -192,8 +192,8 @@ a:hover {
 
 .floatinglogo {
 	position: absolute;
-	margin: -48px 0 0 -200px; /* -16.8% */
-	top: 42%;
+	margin: 0px 0 0 -200px; /* -16.8% */
+	top: 40%;
 	left: 50%;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
@@ -449,7 +449,7 @@ a:hover {
 }
 
 .floatinglogo {
-display: none;
+	display: none;
 	position: absolute;
 	top: 38%;
 	left: 55%;
