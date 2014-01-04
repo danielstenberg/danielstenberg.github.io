@@ -53,16 +53,29 @@ h1,h2,h3,h4,h5,h6 {
 	clear: both;
 } 
 
-h1 {
-	font-family: Helvetica, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.08em;
-	text-align: left;
-	color: #d7ec95;
-	font-size: 170%;
-	margin: 0 0 0.4em 0;
-}
 
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	letter-spacing: 0em;
+	line-height: 1.1em;
+	margin: -40px 0 0 0;
+	text-align: center;
+	color: #e80909;
+	font-size: 5em;
+}
+/*h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+	margin: -80px 0 0 0;
+	text-align: center;
+	color: #f7e41c;
+	font-size: 220%;
+}*/
 
 h2 {
 	text-decoration: none;
@@ -190,16 +203,16 @@ a:hover {
 }
 /* ----------------------- Logo ----------------------- */
 
+
 .floatinglogo {
 	position: absolute;
-	margin: 0px 0 0 -200px; /* -16.8% */
+	width: 100%;
+	text-align: center;
 	top: 40%;
-	left: 50%;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
-
 }
 @keyframes fadein {
     from {
