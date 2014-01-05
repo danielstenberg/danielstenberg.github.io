@@ -83,6 +83,13 @@ span {
 
 .clear { clear: both;}
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 
 /* ----------------------- Links ----------------------- */
 
@@ -191,6 +198,17 @@ a:hover {
     -o-animation: fadein 2s; /* Opera */
 }
 
+h1.personalfavourites {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	line-height: 1.7em;
+	margin: 30px 0 0 0;
+	text-align: center;
+	color: #f2df06;
+	font-size: 2.2em;
+}
 
 h1.formuswithlove {
 	font-family: Helvetica, Arial, sans-serif;
@@ -203,17 +221,7 @@ h1.formuswithlove {
 	color: #e80909;
 	font-size: 5em;
 }
-h1.personalfavourites {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.4em;
-	line-height: 1.7em;
-	margin: 30px 0 0 0;
-	text-align: center;
-	color: #f2df06;
-	font-size: 2.2em;
-}
+
 
 /*h1 {
 	font-family: Helvetica, Arial, sans-serif;
@@ -352,22 +360,29 @@ h1.personalfavourites {
 
 
 
+/* ----------------------- About ----------------------- */
 
-
-/* ----------------------- Links ----------------------- */
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+.about {
+	position: absolute;
+	top: 16%;
+	left: 8.5%;
+	width: 45%;
+	height: 76%;
+	background-color: #fff;
+	padding: 5%;
+	overflow: hidden;
 }
 
 
-
-
-
-
+.bkg {
+	margin: 0;
+	width: 100%;
+	background: url('../img/frida3_edit.jpg') no-repeat center right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 
 

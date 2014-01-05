@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bkg">
 <head>
   <meta charset="utf-8">
   <title>Test</title>
@@ -24,47 +24,28 @@
 
 <nav id="site-navigation" class="main-navigation">
 <ul class="nav-menu">
-<li class="dropdown-link" data-dropdown="#dropdown-3"><span>Portfolio</span></li>
+<li class="dropdown-link" data-dropdown="#dropdown-3">Portfolio</li>
 <li><a href="#">Blog</a></li>
-<li><a href="about.html">About</a></li>
+<li><a href="about.html" class="on">About</a></li>
 </ul>
 </nav><!-- #site-navigation -->
 
-<div class="floatinglogo" style="margin: -80px 0 0 0;">
-	<img src="img/vardagsbrus_logo_01.png" width="180" height="auto">
-	<h1 class="personalfavourites">My Personal<br/>Favourites</h1>
-	<h2 style="color: #fff; margin-top: 25px;">Selected photos shown below</h2>
-
-</div>
-
-
-<img class="single" src="img/main3.jpg">
-
-<div class="text-full">
-<h2>My Personal Favourites</h2>
+<div class="about">
+<h2>Frida Vega Salomonsson</h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida porta dui, non vestibulum sem facilisis bibendum. Donec venenatis feugiat ipsum in posuere. Donec ac mattis est, in faucibus orci. Integer blandit vestibulum justo, eget aliquet ligula euismod et
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisl sapien, posuere ut vulputate at, tempus quis lacus.
+<br /><br />
+Mauris elementum nunc est. Aenean tristique venenatis enim, vitae luctus erat fringilla in. Pellentesque vehicula dui at lacinia molestie. Curabitur non metus non risus venenatis scelerisque ut sed dolor. Aliquam ut laoreet eros. Suspendisse sit amet elit accumsan, volutpat mauris nec, lobortis metus. Quisque lacus eros.
+<br /><br/>
+Frida Vega Salomonsson / Sweden / Stockholm
+
+frida.vega.salomonsson(at)gmail.com
 </p>
 </div>
 
-
-
-
-<script type="text/javascript">
-$(".floatinglogo").delay(1000).animate({"opacity": "1"}, 700);
-
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if ($(window).scrollTop() > 50){
-						$('.floatinglogo').stop().animate({'opacity':'0'},400);
-        }
-		else if ($(window).scrollTop() < 50){
-						$('.floatinglogo').stop().animate({'opacity':'1'},200);
-        }
-    });
-    
-});
-</script>
+<!--
+<img class="background" src="img/frida3.jpg">
+-->
 
 <div id="dropdown-3" class="dropdown dropdown-tip dropdown-scroll">
 	<ul class="dropdown-menu">

@@ -101,7 +101,7 @@
 
 .dropdown.dropdown-scroll .dropdown-menu,
 .dropdown.dropdown-scroll .dropdown-panel {
-	max-height: 520px;
+	max-height: 550px;
 	overflow: auto;
 }
 
@@ -185,7 +185,7 @@
     -moz-transition: opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
 	-o-transition: opacity 0.2s ease-in-out;
-	color: #cbab3d;	
+	color: #f2df06;	
 }
 
 .dropdown-menu a.project1 { background: url('../img/main3.jpg') no-repeat; background-size: cover; }
