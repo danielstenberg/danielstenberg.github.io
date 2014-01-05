@@ -363,9 +363,9 @@ h1.formuswithlove {
 /* ----------------------- About ----------------------- */
 
 .about {
-	position: absolute;
 	top: 16%;
 	left: 8.5%;
+	position: absolute;
 	width: 45%;
 	height: 76%;
 	background-color: #fff;
@@ -375,13 +375,13 @@ h1.formuswithlove {
 
 
 .bkg {
-	margin: 0;
-	width: 100%;
 	background: url('../img/frida3_edit.jpg') no-repeat center right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	margin: 0;
+	width: 100%;
 }
 
 
