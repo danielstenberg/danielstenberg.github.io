@@ -53,30 +53,6 @@ h1,h2,h3,h4,h5,h6 {
 	clear: both;
 } 
 
-
-h1 {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	text-transform: capitalize;
-	letter-spacing: 0em;
-	line-height: 1.1em;
-	margin: -40px 0 0 0;
-	text-align: center;
-	color: #e80909;
-	font-size: 5em;
-}
-/*h1 {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	line-height: 2em;
-	margin: -80px 0 0 0;
-	text-align: center;
-	color: #f7e41c;
-	font-size: 220%;
-}*/
-
 h2 {
 	text-decoration: none;
 	font-weight: bold;
@@ -201,7 +177,7 @@ a:hover {
 	float: left;
 	background-color: transparent;
 }
-/* ----------------------- Logo ----------------------- */
+/* ----------------------- Floating Headline ----------------------- */
 
 
 .floatinglogo {
@@ -214,6 +190,45 @@ a:hover {
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
+
+
+h1.formuswithlove {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	letter-spacing: 0em;
+	line-height: 1.1em;
+	margin: -40px 0 0 0;
+	text-align: center;
+	color: #e80909;
+	font-size: 5em;
+}
+h1.personalfavourites {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	line-height: 1.7em;
+	margin: 30px 0 0 0;
+	text-align: center;
+	color: #f2df06;
+	font-size: 2.2em;
+}
+
+/*h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+	margin: -80px 0 0 0;
+	text-align: center;
+	color: #f7e41c;
+	font-size: 220%;
+}*/
+
+
+
 @keyframes fadein {
     from {
         opacity:0;
@@ -239,12 +254,8 @@ a:hover {
     }
 }
 @-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+    from { opacity:0; }
+    to { opacity: 1;}
 }
 
 	
@@ -460,19 +471,16 @@ a:hover {
 	padding: 8%;
 	float: left;
 }
-
 .floatinglogo {
-	display: none;
 	position: absolute;
-	top: 38%;
-	left: 55%;
-	width: 40%;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
-
-.arrow_left {
-	display: none;
-	}
-
 
 } /* end media query */
 

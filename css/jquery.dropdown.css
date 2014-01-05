@@ -180,7 +180,7 @@
 }
 
 .dropdown-menu a.project-link:hover {
-	opacity: 0.5;
+	opacity: 0.8;
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -191,8 +191,8 @@
 .dropdown-menu a.project1 { background: url('../img/main3.jpg') no-repeat; background-size: cover; }
 .dropdown-menu a.project2 { background: url('http://www.fridasalomonsson.com/blog/wp-content/uploads/2013/02/Form_Us_With_Love2.jpg') no-repeat; background-size: cover; }
 .dropdown-menu a.project3 { background: url('http://payload227.cargocollective.com/1/13/445585/6857753/jenny_wilson_frida_vega_salomonsson_o.jpg') no-repeat; background-size: cover; }
-.dropdown-menu a.project4 { background: url('../img/main4.jpg') no-repeat; background-size: cover; }
+.dropdown-menu a.project4 { background: url('http://payload228.cargocollective.com/1/13/445585/6860923/polaroid_zak_frida_salomonsson.jpg') no-repeat; background-size: cover; }
 .dropdown-menu a.project5 { background: url('../img/main1.jpg') no-repeat; background-size: cover; }
-.dropdown-menu a.project6 { background: url('../img/main3.jpg') no-repeat; background-size: cover; }
+.dropdown-menu a.project6 { background: url('../img/main4.jpg') no-repeat; background-size: cover; }
 .dropdown-menu a.project7 { background: url('../img/main2.jpg') no-repeat; background-size: cover; }
 
