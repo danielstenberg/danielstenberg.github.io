@@ -101,7 +101,7 @@
 
 .dropdown.dropdown-scroll .dropdown-menu,
 .dropdown.dropdown-scroll .dropdown-panel {
-	max-height: 550px;
+	max-height: 520px;
 	overflow: auto;
 }
 
